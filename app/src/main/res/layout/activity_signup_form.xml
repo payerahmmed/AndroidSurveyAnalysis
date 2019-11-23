@@ -10,6 +10,7 @@
     tools:context=".SignupForm">
 
     <EditText
+        android:id="@+id/regFullNameId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -21,6 +22,7 @@
         />
 
     <EditText
+        android:id="@+id/regUserNameId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter User Name"
@@ -32,6 +34,7 @@
     />
 
     <EditText
+        android:id="@+id/regEmailId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email Address"
@@ -43,6 +46,7 @@
         />
 
     <EditText
+        android:id="@+id/regPasswordId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter password"
@@ -54,6 +58,7 @@
         />
 
     <RadioGroup
+        android:id="@+id/regGenderId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -68,6 +73,7 @@
             />
 
         <RadioButton
+            android:id="@+id/regMaleId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Male"
@@ -76,6 +82,7 @@
             />
 
         <RadioButton
+            android:id="@+id/regFemaleId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Female"
@@ -86,6 +93,7 @@
     </RadioGroup>
 
     <Button
+        android:id="@+id/btn_regSubmi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
